@@ -8,9 +8,8 @@ exports.seed = async function (knex) {
   ]);
 
   await knex("category").insert([
-    { name: "Smash", image: "c1.jpg", categoryVisible: true },
-    { name: "Hambúrgueres", image: "c2.jpg", categoryVisible: true },
-    { name: "Porções", image: "c3.jpg", categoryVisible: true },
-    { name: "Bebidas", image: "c4.jpg", categoryVisible: true },
+    { name: "Hambúrgueres", image: "default.png", categoryVisible: true },
+    { name: "Porções", image: "default.png", categoryVisible: true },
+    { name: "Bebidas", image: "default.png", categoryVisible: true },
   ]);
 };
